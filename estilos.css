@@ -1,0 +1,193 @@
+* {
+    background-image: url("img/fonttn.png");
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*para las listas*/
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Listas ordenadas*/
+ul li {
+    float: left;
+}
+
+/*el menu*/
+.menu {
+    display: none;
+}
+
+#Menu a {
+    text-decoration: none;
+    display: block;
+    padding: 12px 26px;
+    font-size: 18px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Delicias p {
+    background-color: rgb(41, 40, 40);
+}
+
+.foto-container {
+    border: 2px solid;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    margin: 1rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.center-h {
+    justify-content: center;
+}
+
+.distribute-h {
+    /* Variaciones*/
+    justify-content: space-evenly;
+}
+
+.child {
+    background: #60e0b0;
+    padding: .2rem;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+/*Forma a los otros productos*/
+.flex {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.columna {
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888;
+}
+
+.precio {
+    font-size: 50px;
+    color: #e26e21;
+}
+
+.btn-precio {
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.btn-precio:hover {
+    background: rgb(228, 55, 12);
+}
+/*
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: #04146e;
+    height: 100px;
+    padding-top: 12px;
+    color: black;
+    font-family: alegreya-light;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Menu {
+    position: fixed;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0%;
+    background: #04146e;
+    width: 90%;
+    max-width: 600px;
+    float: right;
+    margin: 2em 0em;
+}
+
+.Menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.Menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a:hover {
+    background: #e9c00c;
+}
+
+#superior {
+    padding: 1em 0;
+    background: #04146e;
+    height: 80px;
+    width: 100%;
+}
+
+#img {
+    float: left;
+    margin: 25px 0px 0px 25px;
+    width: 15%;
+}

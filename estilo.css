@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 15em;
+    background:url(img/fontt.png);
+
+}
+
+.Menu{
+    position: fixed;
+    position: relative;
+    display: inline-block;
+    list-style:none;
+    padding: 0%;
+    background: #04146e;
+    width: 90%;
+    max-width: 600px;
+    float: right;
+    margin: 2em 0em ;
+}
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.Menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a:hover {
+    background: #e9c00c;
+}
+
+#superior {
+padding: 1em 0;  
+background: #04146e;
+height: 80px;
+width: 100%;
+}
+
+#abajo{
+width: 100%;
+position:absolute;
+bottom: 0;
+background: #04146e;
+height: 100px;
+}
+
+#img{
+    float: left;
+    margin: 25px 0px 0px 25px;
+    width: 15%;
+}
+
+#uo{
+    text-align: center;
+}
+
+#n{
+    text-align: center;
+}
