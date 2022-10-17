@@ -130,26 +130,25 @@ thead th:nth-child(4) {
 .btn-precio:hover {
     background: rgb(228, 55, 12);
 }
-/*
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 
+header {
+    width: auto;
+    position: relative;
+}
+/*Aqui va el pie de pagina footer*//*
 footer {
     width: 100%;
     position: relative;
-    bottom: 0;
-    background: #04146e;
+    bottom: 0;*/
+    /*background: #04146e;*//*
     height: 100px;
     padding-top: 12px;
-    color: black;
+    color: white;
     font-family: alegreya-light;
-    font-size: 24px;
+    font-size: 19px;
     text-align: center;
 }
-
+*/
 .Menu {
     position: fixed;
     position: relative;
@@ -186,8 +185,117 @@ footer {
     width: 100%;
 }
 
-#img {
+#img{
     float: left;
     margin: 25px 0px 0px 25px;
     width: 15%;
 }
+/*Esto es para que haga fooshhh y valla suave*/
+html{
+    scroll-behavior: smooth;
+}
+
+.boton_pagina_principal{
+    text-align: center;
+}
+.abajo{
+    text-align: center;
+}
+
+/*footer de prueba*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Apartirde aquiva lo que habia en el estilo.css (lo que hizo rolandofo)*/
+/*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 15em;
+    background:url(img/fontt.png);
+
+}
+
+.Menu{
+    position: fixed;
+    position: relative;
+    display: inline-block;
+    list-style:none;
+    padding: 0%;
+    background: #04146e;
+    width: 90%;
+    max-width: 600px;
+    float: right;
+    margin: 2em 0em ;
+}
+.Menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.Menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.Menu li a:hover {
+    background: #e9c00c;
+}
+
+#superior {
+padding: 1em 0;  
+background: #04146e;
+height: 80px;
+width: 100%;
+}
+
+#abajo{
+width: 100%;
+position:absolute;
+bottom: 0;
+background: #04146e;
+height: 100px;
+}
+
+#img{
+    float: left;
+    margin: 25px 0px 0px 25px;
+    width: 15%;
+}
+
+#uo{
+    text-align: center;
+}
+
+#n{
+    text-align: center;
+}
+*/
+/*Esto es para que haga fooshhh y valla suave*//*
+html{
+    scroll-behavior: smooth;
+}
+*/

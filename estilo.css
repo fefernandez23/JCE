@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background: #ffffff;
     margin: 0;
-    position: relative;
+    position: absolute;
     min-height: 100vh;
     padding-bottom: 15em;
     background:url(img/fontt.png);
@@ -16,7 +16,7 @@ body{
     list-style:none;
     padding: 0%;
     background: #04146e;
-    width: 90%;
+    width: 100%;
     max-width: 600px;
     float: right;
     margin: 2em 0em ;
@@ -49,6 +49,8 @@ position:absolute;
 bottom: 0;
 background: #04146e;
 height: 100px;
+text-align: center;
+color: white;
 }
 
 #img{
@@ -63,4 +65,13 @@ height: 100px;
 
 #n{
     text-align: center;
+}
+/*Esto es para que haga fooshhh y valla suave*/
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
